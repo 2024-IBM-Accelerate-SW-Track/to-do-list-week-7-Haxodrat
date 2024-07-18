@@ -1,11 +1,3 @@
-const basicAuth = require("express-basic-auth");
-var { authenticator, upsertUser, cookieAuth } = require("./authentication");
-const auth = basicAuth({
-    authorizer: authenticator
-});
-const cookieParser = require("cookie-parser");
-app.use(cookieParser("82e4e438a0705fabf61f9854e3b575af"));
-
 const express = require("express"),
        app = express(),
        port = process.env.PORT || 8080,
@@ -16,7 +8,13 @@ const fsPromises = require("fs").promises;
 const todoDBName = "tododb";
 const useCloudant = true;
 
-
+const basicAuth = require("express-basic-auth");
+var { authenticator, upsertUser, cookieAuth } = require("./authentication");
+const auth = basicAuth({
+    authorizer: authenticator
+});
+const cookieParser = require("cookie-parser");
+app.use(cookieParser("82e4e438a0705fabf61f9854e3b575af"));
 
 //Init code for Cloudant
 const {CloudantV1} = require('@ibm-cloud/cloudant');
@@ -31,6 +29,7 @@ app.use(cors({
   credentials: true,
   origin: 'http://localhost:3000'
 }));
+
 app.use(bodyParser.json({ extended: true }));
 
 app.listen(port, () => console.log("Backend server live on " + port));
