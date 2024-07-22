@@ -309,3 +309,35 @@ To continue to improve the security of the TODO app, we might:
 ### Optional Exercise
 
 - Try to set up a simple authentication for the TODO app using [IBM Cloud App ID](https://cloud.ibm.com/docs/appid?topic=appid-getting-started) service by using the [tutorial](https://cloud.ibm.com/docs/appid?topic=appid-web-node).
+
+## Tech Stack
+<table>
+    <tr>
+        <td>Languages</td>
+        <td>
+            <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E"/>
+            <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white"/>
+            <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Frameworks/Technologies</td>
+        <td>
+            <img src="https://img.shields.io/badge/MaterialUI-0081CB.svg?style=flat-square&logo=MUI&logoColor=white"/>
+            <img src="https://img.shields.io/badge/React-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB"/>
+            <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel"/>
+        </td>
+    </tr>
+      <td>Databases</td>
+      <td>
+            <img src="https://img.shields.io/badge/MongoDB-321032.svg?style=flat-square&logo=mongodb&logoColor=white"/>
+      </td>
+    <tr>
+        <td>Testing</td>
+        <td>
+            <img src="https://img.shields.io/badge/Jest-092E20?style=flat-square&logo=jest&logoColor=white"/>
+            <img src="https://img.shields.io/badge/React%20Testing%20Library-%23CC6699.svg?style=flat-square&logo=testing-library&logoColor=white"/>
+        </td>
+    </tr>
+</table>
